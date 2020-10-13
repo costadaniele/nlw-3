@@ -1,3 +1,6 @@
+/* em -> elemento anterior */
+
+
 * {
     margin: 0;
     padding: 0;
@@ -5,9 +8,41 @@
 
 body{
     height: 100vh;
-    
+    color: white;
 }
 
-#page-ladding{
-    background: linear-gradient(329.54deg, #29b6d1 0%, #00c7c7 100%);
+:root {
+    font-size: 62.5%; /* equivale a 10px */
+}
+
+body, input, button, textarea{
+    font-weight: 400;
+    line-height: 1;
+    font-size: 1.8rem;
+    font-family: 'Nunito', sans-serif;
+
+    /*font: 400 18px/1 'Nunito', sans-serif;*/
+}
+
+
+
+
+#logo {
+    animation-delay: 50ms;
+}
+
+.location {
+    animation-delay: 100ms;
+}
+
+main h1{
+    animation-delay: 150ms;
+}
+
+.visit p{
+    animation-delay: 200ms;
+}
+
+.visit a{
+    animation-delay: 250ms;
 }
